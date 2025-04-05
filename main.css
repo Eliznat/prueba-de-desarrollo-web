@@ -3,13 +3,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #000000;
 }
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(14, 14, 14, 0.1);
+  }
+  
+  .logo-container img {
+    max-width: 150px;
+    height: auto;
+  }
 
 /* Encabezado */
 header {
-    background-color: #991818;
-    color: white;
+    background-color: #771111;
+    color: rgb(241, 241, 241);
     text-align: center;
     padding: 20px;
 }
@@ -18,12 +30,12 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #e91010;
+    background-color: #8a1515;
     padding: 10px;
 }
 
 nav a {
-    color: rgb(240, 228, 228);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 20px;
     font-weight: bold;
@@ -40,11 +52,11 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: rgb(221, 217, 217);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(136, 132, 132, 0.1);
 }
 
 /* Galería */
@@ -56,10 +68,10 @@ section {
 }
 
 .galeria-item {
-    background-color: rgb(192, 179, 176);
+    background-color: rgb(180, 188, 211);
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(121, 115, 115, 0.2);
+    box-shadow: 0px 0px 10px rgba(170, 166, 166, 0.2);
     text-align: center;
     width: 220px;
 }
@@ -73,7 +85,7 @@ section {
 /* Pie de página */
 footer {
     background-color: #a31515;
-    color: white;
+    color: rgb(158, 149, 149);
     text-align: center;
     padding: 10px;
     position: relative;
